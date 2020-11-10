@@ -1,5 +1,35 @@
 #!/bin/bash
 
+###############################################################
+#
+# The goal of this script and repository is to simulate having
+# done a TCK test run.
+#
+# In a real TCK test run you would:
+#
+#  - clone https://github.com/apache/tomee-tck
+#  - execute `runtests` passing in the name of tests
+#  - This results in:
+#     - maven test output streaming to STDOUT
+#     - a `target/` directory with several *.log files
+#
+# In a simulated TCK test run we will simulate the above:
+#
+#  - clone this repostory
+#  - execute `runtests` passing in the scenario and test
+#  - This results in:
+#     - the build.log file of the scenario/test being cat'ed to STDOUT
+#     - any scenario/test files, including the `target/` directory, being
+#       rsynced to the root
+#
+# The goal of this script is to perform those last two steps
+# including cleanup of previous simulated runs.
+#
+# WARNING: This script will run `git clean -fd`.  If you have
+# any untracked files they will be deleted when this script
+# is run.  Use `git add` to prevent them from being deleted.
+# 
+###############################################################
 function fail {
     MESSAGE="${1?Specify a failure message}"
     echo "$MESSAGE"
@@ -24,8 +54,10 @@ cd "$(dirname "$0")"
 [ -d "$SCENARIO" ] || fail "No such scenario: $SCENARIO"
 [ -d "$SCENARIO/$TEST" ] || fail "No such test: $TEST"
 
-[ -d "target" ] && {
-    rm -rf "target"
-    mkdir "target"
-}
 
+# Clear any old test results
+git clean -fd
+
+# Finally, copy the files from the scenario
+# into the root.
+rsync -av "$SCENARIO/$TEST/" ./
