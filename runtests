@@ -1,0 +1,31 @@
+#!/bin/bash
+
+function fail {
+    MESSAGE="${1?Specify a failure message}"
+    echo "$MESSAGE"
+    exit 1;
+}
+
+while getopts "s:t:" opt; do
+    [ "$opt" == "?" ] && echo "Unknown flag -$OPTARG" && exit 1
+    [ "$opt" == ":" ] && echo "Argument required -$OPTARG" && exit 2
+
+    # turn the flag into a variable
+    declare -x "$opt=${OPTARG:-true}"
+    
+done && shift $((OPTIND-1))
+
+SCENARIO="${s?Specify a scenario via -s}"
+TEST="${t?Specify a test name via -t}"
+
+cd "$(dirname "$0")"
+
+# Ensure the scenario and test directories exist
+[ -d "$SCENARIO" ] || fail "No such scenario: $SCENARIO"
+[ -d "$SCENARIO/$TEST" ] || fail "No such test: $TEST"
+
+[ -d "target" ] && {
+    rm -rf "target"
+    mkdir "target"
+}
+
