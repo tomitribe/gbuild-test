@@ -1,0 +1,249 @@
+10-Nov-2020 18:23:18.896 INFO [main] org.apache.openejb.persistence.PersistenceBootstrap.getDefaultProvider Default JPA Provider changed to org.eclipse.persistence.jpa.PersistenceProvider specified by jar:file:/Users/dblevins/work/apache/tomee-tck-jakartaee9/target/apache-tomee-plume-9.0.0-M3-SNAPSHOT/lib/openejb-core-eclipselink-8.0.5-SNAPSHOT.jar!/META-INF/org.apache.openejb.persistence.PersistenceBootstrap.provider
+10-Nov-2020 18:23:19.056 WARNING [main] sun.reflect.NativeMethodAccessorImpl.invoke Match [Server/Service/Engine/Host/Valve] failed to set property [resolveHosts] to [false]
+10-Nov-2020 18:23:19.061 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server version name:   Apache Tomcat (TomEE)/9.0.39 (8.0.5-SNAPSHOT)
+10-Nov-2020 18:23:19.061 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server built:          Oct 6 2020 14:11:46 UTC
+10-Nov-2020 18:23:19.061 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server version number: 9.0.39.0
+10-Nov-2020 18:23:19.061 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Name:               Mac OS X
+10-Nov-2020 18:23:19.061 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Version:            10.15.3
+10-Nov-2020 18:23:19.061 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Architecture:          x86_64
+10-Nov-2020 18:23:19.061 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre
+10-Nov-2020 18:23:19.061 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Version:           1.8.0_151-b12
+10-Nov-2020 18:23:19.061 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Oracle Corporation
+10-Nov-2020 18:23:19.061 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         /Users/dblevins/work/apache/tomee-tck-jakartaee9/target/apache-tomee-plume-9.0.0-M3-SNAPSHOT
+10-Nov-2020 18:23:19.062 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         /Users/dblevins/work/apache/tomee-tck-jakartaee9/target/apache-tomee-plume-9.0.0-M3-SNAPSHOT
+10-Nov-2020 18:23:19.063 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+10-Nov-2020 18:23:19.064 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dopenejb.deployer.jndiname=openejb/DeployerBusinessRemote
+10-Nov-2020 18:23:19.064 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=/Users/dblevins/work/apache/tomee-tck-jakartaee9/target/apache-tomee-plume-9.0.0-M3-SNAPSHOT/conf/logging.properties
+10-Nov-2020 18:23:19.064 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -javaagent:/Users/dblevins/work/apache/tomee-tck-jakartaee9/target/apache-tomee-plume-9.0.0-M3-SNAPSHOT/lib/openejb-javaagent.jar
+10-Nov-2020 18:23:19.064 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Nov-2020 18:23:19.064 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=/Users/dblevins/work/apache/tomee-tck-jakartaee9/target/apache-tomee-plume-9.0.0-M3-SNAPSHOT/temp
+10-Nov-2020 18:23:19.064 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=/Users/dblevins/work/apache/tomee-tck-jakartaee9/target/apache-tomee-plume-9.0.0-M3-SNAPSHOT
+10-Nov-2020 18:23:19.064 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=/Users/dblevins/work/apache/tomee-tck-jakartaee9/target/apache-tomee-plume-9.0.0-M3-SNAPSHOT
+10-Nov-2020 18:23:19.064 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.ext.dirs=/Users/dblevins/work/apache/tomee-tck-jakartaee9/target/apache-tomee-plume-9.0.0-M3-SNAPSHOT/lib
+10-Nov-2020 18:23:19.064 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dorg.apache.catalina.STRICT_SERVLET_COMPLIANCE=true
+10-Nov-2020 18:23:19.065 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dorg.apache.tomcat.util.http.ServerCookie.ALLOW_HTTP_SEPARATORS_IN_V0=true
+10-Nov-2020 18:23:19.065 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djavax.net.ssl.keyStore=/Users/dblevins/work/apache/tomee-tck-jakartaee9/src/test/keystores/clientcert.jks
+10-Nov-2020 18:23:19.065 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djavax.net.ssl.keyStorePassword=changeit
+10-Nov-2020 18:23:19.065 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djavax.net.ssl.trustStore=/Users/dblevins/work/apache/tomee-tck-jakartaee9/src/test/keystores/ssl-truststore
+10-Nov-2020 18:23:19.065 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.protocol.handler.pkgs=javax.net.ssl
+10-Nov-2020 18:23:19.065 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -ea
+10-Nov-2020 18:23:19.067 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/dblevins/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Nov-2020 18:23:19.347 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke The ["http-nio-59368"] connector has been configured to support HTTP upgrade to [h2c]
+10-Nov-2020 18:23:19.347 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-59368"]
+10-Nov-2020 18:23:19.381 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["https-jsse-nio-59369"]
+10-Nov-2020 18:23:19.489 WARNING [main] sun.reflect.NativeMethodAccessorImpl.invoke The trusted certificate with alias [geronimo] and DN [CN=Apache Geronimo, OU=Unknown, O=Apache Foundation, L=Unknown, ST=Unknown, C=Unknown] is not valid due to [NotAfter: Sat Aug 22 14:08:28 PDT 2015]. Certificates signed by this trusted certificate WILL be accepted
+10-Nov-2020 18:23:19.489 WARNING [main] sun.reflect.NativeMethodAccessorImpl.invoke The trusted certificate with alias [cts] and DN [CN=CTS, OU=Java Software, O=Sun Microsystems Inc., L=Burlington, ST=MA, C=US] is not valid due to [NotAfter: Thu Jan 02 14:23:31 PST 2020]. Certificates signed by this trusted certificate WILL be accepted
+10-Nov-2020 18:23:19.490 WARNING [main] sun.reflect.NativeMethodAccessorImpl.invoke The trusted certificate with alias [s1as] and DN [CN=S1AS, OU=Sun Java System, O=Sun Microsystems, L=Santa Clara, ST=California, C=US] is not valid due to [NotAfter: Sun Feb 02 14:56:08 PST 2014]. Certificates signed by this trusted certificate WILL be accepted
+10-Nov-2020 18:23:19.612 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'tomee.remote.support=true'
+10-Nov-2020 18:23:19.653 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+10-Nov-2020 18:23:19.666 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.environment.default=true'
+10-Nov-2020 18:23:19.678 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deploymentId.format={appId}/{ejbJarId}/{ejbName}'
+10-Nov-2020 18:23:19.681 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.vendor.config=glassfish'
+10-Nov-2020 18:23:19.720 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+10-Nov-2020 18:23:19.721 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+10-Nov-2020 18:23:19.721 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Tue Nov 10 18:23:19 PST 2020
+10-Nov-2020 18:23:19.721 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2018 (C) Apache OpenEJB Project, All Rights Reserved.
+10-Nov-2020 18:23:19.721 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 8.0.5-SNAPSHOT
+10-Nov-2020 18:23:19.721 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20201106
+10-Nov-2020 18:23:19.721 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 10:51
+10-Nov-2020 18:23:19.721 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+10-Nov-2020 18:23:19.721 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = /Users/dblevins/work/apache/tomee-tck-jakartaee9/target/apache-tomee-plume-9.0.0-M3-SNAPSHOT
+10-Nov-2020 18:23:19.721 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = /Users/dblevins/work/apache/tomee-tck-jakartaee9/target/apache-tomee-plume-9.0.0-M3-SNAPSHOT
+10-Nov-2020 18:23:19.723 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@10959ece
+10-Nov-2020 18:23:19.724 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+10-Nov-2020 18:23:19.744 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.environment.default=true'
+10-Nov-2020 18:23:19.744 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deploymentId.format={appId}/{ejbJarId}/{ejbName}'
+10-Nov-2020 18:23:19.744 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.vendor.config=glassfish'
+10-Nov-2020 18:23:19.746 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is '/Users/dblevins/work/apache/tomee-tck-jakartaee9/target/apache-tomee-plume-9.0.0-M3-SNAPSHOT/conf/tomee.xml'
+10-Nov-2020 18:23:19.772 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+10-Nov-2020 18:23:19.774 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+10-Nov-2020 18:23:19.774 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=jdbc/securityAPIDB, type=Resource, provider-id=Default JDBC Database)
+10-Nov-2020 18:23:19.775 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=jdbc/DB1, type=Resource, provider-id=Default JDBC Database)
+10-Nov-2020 18:23:19.775 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=jdbc/DB1Unmanaged, type=Resource, provider-id=Default JDBC Database)
+10-Nov-2020 18:23:19.776 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=MailSession, type=Resource, provider-id=Default Mail Session)
+10-Nov-2020 18:23:19.778 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=CmpContainer, type=Container, provider-id=Default CMP Container)
+10-Nov-2020 18:23:19.778 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=StatefulContainer, type=Container, provider-id=Default Stateful Container)
+10-Nov-2020 18:23:19.779 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=StatelessContainer, type=Container, provider-id=Default Stateless Container)
+10-Nov-2020 18:23:19.779 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=SingletonContainer, type=Container, provider-id=Default Singleton Container)
+10-Nov-2020 18:23:19.781 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.system.apps=true'
+10-Nov-2020 18:23:19.786 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+10-Nov-2020 18:23:19.818 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+10-Nov-2020 18:23:19.831 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=jdbc/securityAPIDB)
+10-Nov-2020 18:23:19.939 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=jdbc/DB1)
+10-Nov-2020 18:23:19.954 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=jdbc/DB1Unmanaged)
+10-Nov-2020 18:23:19.966 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=MailSession)
+10-Nov-2020 18:23:19.991 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=CmpContainer)
+10-Nov-2020 18:23:19.999 WARNING [main] org.apache.openejb.assembler.classic.Assembler.unusedProperty unused property 'Engine' for resource 'CmpContainer'
+10-Nov-2020 18:23:20.000 WARNING [main] org.apache.openejb.assembler.classic.Assembler.unusedProperty unused property 'ConnectorName' for resource 'CmpContainer'
+10-Nov-2020 18:23:20.001 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=StatefulContainer)
+10-Nov-2020 18:23:20.014 INFO [main] org.apache.openejb.core.stateful.SimplePassivater.init Using directory /Users/dblevins/work/apache/tomee-tck-jakartaee9/target/apache-tomee-plume-9.0.0-M3-SNAPSHOT/temp for stateful session passivation
+10-Nov-2020 18:23:20.023 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=StatelessContainer)
+10-Nov-2020 18:23:20.028 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=SingletonContainer)
+10-Nov-2020 18:23:20.032 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: openejb
+10-Nov-2020 18:23:20.074 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jndiname.format={deploymentId}{interfaceType.openejbLegacyName}'
+10-Nov-2020 18:23:20.081 INFO [main] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=openejb/DeployerBusinessRemote) --> Ejb(deployment-id=openejb/Deployer)
+10-Nov-2020 18:23:20.082 INFO [main] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=global/openejb/openejb/openejb/Deployer!org.apache.openejb.assembler.Deployer) --> Ejb(deployment-id=openejb/Deployer)
+10-Nov-2020 18:23:20.082 INFO [main] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=global/openejb/openejb/openejb/Deployer) --> Ejb(deployment-id=openejb/Deployer)
+10-Nov-2020 18:23:20.082 INFO [main] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=openejb/ConfigurationInfoBusinessRemote) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+10-Nov-2020 18:23:20.083 INFO [main] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=global/openejb/openejb/openejb/Deployer!org.apache.openejb.assembler.classic.cmd.ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+10-Nov-2020 18:23:20.084 INFO [main] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=MEJB) --> Ejb(deployment-id=MEJB)
+10-Nov-2020 18:23:20.084 INFO [main] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=global/openejb/openejb/openejb/Deployer!javax.management.j2ee.ManagementHome) --> Ejb(deployment-id=MEJB)
+10-Nov-2020 18:23:20.090 INFO [main] org.apache.openejb.assembler.classic.Assembler.startEjbs Created Ejb(deployment-id=MEJB, ejb-name=openejb/Deployer, container=SingletonContainer)
+10-Nov-2020 18:23:20.091 INFO [main] org.apache.openejb.assembler.classic.Assembler.startEjbs Created Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/Deployer, container=SingletonContainer)
+10-Nov-2020 18:23:20.092 INFO [main] org.apache.openejb.assembler.classic.Assembler.startEjbs Created Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=SingletonContainer)
+10-Nov-2020 18:23:20.092 INFO [main] org.apache.openejb.assembler.classic.Assembler.startEjbs Started Ejb(deployment-id=MEJB, ejb-name=openejb/Deployer, container=SingletonContainer)
+10-Nov-2020 18:23:20.092 INFO [main] org.apache.openejb.assembler.classic.Assembler.startEjbs Started Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/Deployer, container=SingletonContainer)
+10-Nov-2020 18:23:20.092 INFO [main] org.apache.openejb.assembler.classic.Assembler.startEjbs Started Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=SingletonContainer)
+10-Nov-2020 18:23:20.095 INFO [main] org.apache.openejb.assembler.classic.Assembler.deployMBean Deployed MBean(openejb.user.mbeans:application=openejb,group=org.apache.openejb.assembler.monitoring,name=JMXDeployer)
+10-Nov-2020 18:23:20.097 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=openejb)
+10-Nov-2020 18:23:20.119 INFO [main] org.apache.openejb.server.ServiceManager.addProperties Using legacy configuration path for new service: /Users/dblevins/work/apache/tomee-tck-jakartaee9/target/apache-tomee-plume-9.0.0-M3-SNAPSHOT/conf/development.cxf.properties
+10-Nov-2020 18:23:20.122 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf)
+10-Nov-2020 18:23:20.226 INFO [main] org.apache.openejb.server.ServiceManager.addProperties Using legacy configuration path for new service: /Users/dblevins/work/apache/tomee-tck-jakartaee9/target/apache-tomee-plume-9.0.0-M3-SNAPSHOT/conf/derbynet.properties
+10-Nov-2020 18:23:20.227 INFO [main] org.apache.openejb.server.ServiceManager.addProperties Using legacy configuration path for new service: /Users/dblevins/work/apache/tomee-tck-jakartaee9/target/apache-tomee-plume-9.0.0-M3-SNAPSHOT/conf/development.derbynet.properties
+10-Nov-2020 18:23:20.227 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=derbynet)
+10-Nov-2020 18:23:20.229 INFO [main] org.apache.openejb.server.ServiceManager.addProperties Using legacy configuration path for new service: /Users/dblevins/work/apache/tomee-tck-jakartaee9/target/apache-tomee-plume-9.0.0-M3-SNAPSHOT/conf/cxf-rs.properties
+10-Nov-2020 18:23:20.230 INFO [main] org.apache.openejb.server.ServiceManager.addProperties Using legacy configuration path for new service: /Users/dblevins/work/apache/tomee-tck-jakartaee9/target/apache-tomee-plume-9.0.0-M3-SNAPSHOT/conf/development.cxf-rs.properties
+10-Nov-2020 18:23:20.230 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+10-Nov-2020 18:23:20.263 INFO [main] org.apache.openejb.server.ServiceManager.addProperties Using legacy configuration path for new service: /Users/dblevins/work/apache/tomee-tck-jakartaee9/target/apache-tomee-plume-9.0.0-M3-SNAPSHOT/conf/development.hsql.properties
+10-Nov-2020 18:23:20.423 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+10-Nov-2020 18:23:20.423 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+10-Nov-2020 18:23:20.423 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   derbynet             0.0.0.0         4205  
+10-Nov-2020 18:23:20.423 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+10-Nov-2020 18:23:20.423 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+10-Nov-2020 18:23:20.423 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Server initialization in [1509] milliseconds
+10-Nov-2020 18:23:20.441 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+10-Nov-2020 18:23:20.442 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+10-Nov-2020 18:23:20.444 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting service [Catalina]
+10-Nov-2020 18:23:20.444 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet engine: [Apache Tomcat (TomEE)/9.0.39 (8.0.5-SNAPSHOT)]
+10-Nov-2020 18:23:20.484 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesRmiTargets] to [true] as the property does not exist.
+10-Nov-2020 18:23:20.484 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesObjectStreamClassCaches] to [true] as the property does not exist.
+10-Nov-2020 18:23:20.484 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesObjectStreamClassCaches] to [true] as the property does not exist.
+10-Nov-2020 18:23:20.484 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesThreadLocals] to [true] as the property does not exist.
+10-Nov-2020 18:23:20.498 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["http-nio-59368"]
+10-Nov-2020 18:23:20.504 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["https-jsse-nio-59369"]
+10-Nov-2020 18:23:20.505 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Server startup in [81] milliseconds
+10-Nov-2020 18:23:20.560 WARNING [main] sun.reflect.NativeMethodAccessorImpl.invoke Invalid shutdown command [] received
+10-Nov-2020 18:23:21.014 INFO [http-nio-59368-exec-3] org.apache.openejb.util.JarExtractor.extract Extracting jar: /Users/dblevins/work/tckfun/jakartaeetck9/dist/com/sun/ts/tests/jaspic/spi/servlet/spitests_servlet_web.war
+10-Nov-2020 18:23:21.033 INFO [http-nio-59368-exec-3] org.apache.openejb.util.JarExtractor.extract Extracted path: /Users/dblevins/work/tckfun/jakartaeetck9/dist/com/sun/ts/tests/jaspic/spi/servlet/spitests_servlet_web
+10-Nov-2020 18:23:21.033 INFO [http-nio-59368-exec-3] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using default host: localhost
+10-Nov-2020 18:23:21.034 INFO [http-nio-59368-exec-3] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /spitests_servlet_web
+10-Nov-2020 18:23:21.034 INFO [http-nio-59368-exec-3] org.apache.openejb.util.OptionsLog.info Using 'openejb.crosscontext=true'
+10-Nov-2020 18:23:21.187 INFO [http-nio-59368-exec-3] org.apache.openejb.util.OptionsLog.info Using 'openejb.classloader.forced-skip=com.sun.ts.tests.jaspic.tssv.util.'
+10-Nov-2020 18:23:21.188 INFO [http-nio-59368-exec-3] org.apache.openejb.util.OptionsLog.info Using 'openejb.classloader.forced-load=com.sun.ts.tests.'
+10-Nov-2020 18:23:21.243 INFO [http-nio-59368-exec-3] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /Users/dblevins/work/tckfun/jakartaeetck9/dist/com/sun/ts/tests/jaspic/spi/servlet/spitests_servlet_web
+10-Nov-2020 18:23:21.361 INFO [http-nio-59368-exec-3] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+10-Nov-2020 18:23:21.362 INFO [http-nio-59368-exec-3] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean spitests_servlet_web/spitests_servlet_web/spitests_servlet_web.Comp1916651480: Container(type=MANAGED, id=Default Managed Container)
+10-Nov-2020 18:23:21.362 INFO [http-nio-59368-exec-3] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+10-Nov-2020 18:23:21.367 INFO [http-nio-59368-exec-3] org.apache.openejb.core.managed.SimplePassivater.init Using directory /Users/dblevins/work/apache/tomee-tck-jakartaee9/target/apache-tomee-plume-9.0.0-M3-SNAPSHOT/temp for stateful session passivation
+10-Nov-2020 18:23:21.370 INFO [http-nio-59368-exec-3] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=comp/DefaultManagedExecutorService, type=Resource, provider-id=Default Executor Service)
+10-Nov-2020 18:23:21.370 INFO [http-nio-59368-exec-3] org.apache.openejb.config.AutoConfig.logAutoCreateResource Auto-creating a Resource with id 'comp/DefaultManagedExecutorService' of type 'jakarta.enterprise.concurrent.ManagedExecutorService for 'spitests_servlet_web/spitests_servlet_web/spitests_servlet_web.Comp1916651480'.
+10-Nov-2020 18:23:21.371 INFO [http-nio-59368-exec-3] org.apache.openejb.config.AutoConfig.processResourceEnvRef Auto-linking resource-env-ref 'java:comp/DefaultManagedExecutorService' in bean spitests_servlet_web/spitests_servlet_web/spitests_servlet_web.Comp1916651480 to Resource(id=comp/DefaultManagedExecutorService)
+10-Nov-2020 18:23:21.372 INFO [http-nio-59368-exec-3] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=comp/DefaultManagedScheduledExecutorService, type=Resource, provider-id=Default Scheduled Executor Service)
+10-Nov-2020 18:23:21.373 INFO [http-nio-59368-exec-3] org.apache.openejb.config.AutoConfig.logAutoCreateResource Auto-creating a Resource with id 'comp/DefaultManagedScheduledExecutorService' of type 'jakarta.enterprise.concurrent.ManagedScheduledExecutorService for 'spitests_servlet_web/spitests_servlet_web/spitests_servlet_web.Comp1916651480'.
+10-Nov-2020 18:23:21.373 INFO [http-nio-59368-exec-3] org.apache.openejb.config.AutoConfig.processResourceEnvRef Auto-linking resource-env-ref 'java:comp/DefaultManagedScheduledExecutorService' in bean spitests_servlet_web/spitests_servlet_web/spitests_servlet_web.Comp1916651480 to Resource(id=comp/DefaultManagedScheduledExecutorService)
+10-Nov-2020 18:23:21.373 INFO [http-nio-59368-exec-3] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=comp/DefaultManagedThreadFactory, type=Resource, provider-id=Default Managed Thread Factory)
+10-Nov-2020 18:23:21.374 INFO [http-nio-59368-exec-3] org.apache.openejb.config.AutoConfig.logAutoCreateResource Auto-creating a Resource with id 'comp/DefaultManagedThreadFactory' of type 'jakarta.enterprise.concurrent.ManagedThreadFactory for 'spitests_servlet_web/spitests_servlet_web/spitests_servlet_web.Comp1916651480'.
+10-Nov-2020 18:23:21.374 INFO [http-nio-59368-exec-3] org.apache.openejb.config.AutoConfig.processResourceEnvRef Auto-linking resource-env-ref 'java:comp/DefaultManagedThreadFactory' in bean spitests_servlet_web/spitests_servlet_web/spitests_servlet_web.Comp1916651480 to Resource(id=comp/DefaultManagedThreadFactory)
+10-Nov-2020 18:23:21.374 INFO [http-nio-59368-exec-3] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=comp/DefaultContextService, type=Resource, provider-id=Default Context Service)
+10-Nov-2020 18:23:21.375 INFO [http-nio-59368-exec-3] org.apache.openejb.config.AutoConfig.logAutoCreateResource Auto-creating a Resource with id 'comp/DefaultContextService' of type 'jakarta.enterprise.concurrent.ContextService for 'spitests_servlet_web/spitests_servlet_web/spitests_servlet_web.Comp1916651480'.
+10-Nov-2020 18:23:21.375 INFO [http-nio-59368-exec-3] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=comp/DefaultContextService)
+10-Nov-2020 18:23:21.378 INFO [http-nio-59368-exec-3] org.apache.openejb.config.AutoConfig.processResourceEnvRef Auto-linking resource-env-ref 'java:comp/DefaultContextService' in bean spitests_servlet_web/spitests_servlet_web/spitests_servlet_web.Comp1916651480 to Resource(id=comp/DefaultContextService)
+10-Nov-2020 18:23:21.379 INFO [http-nio-59368-exec-3] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=comp/DefaultJMSConnectionFactory, type=Resource, provider-id=Default JMS Connection Factory)
+10-Nov-2020 18:23:21.379 INFO [http-nio-59368-exec-3] org.apache.openejb.config.AutoConfig.logAutoCreateResource Auto-creating a Resource with id 'comp/DefaultJMSConnectionFactory' of type 'jakarta.jms.ConnectionFactory for 'spitests_servlet_web/spitests_servlet_web/spitests_servlet_web.Comp1916651480'.
+10-Nov-2020 18:23:21.380 INFO [http-nio-59368-exec-3] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default JMS Resource Adapter, type=Resource, provider-id=Default JMS Resource Adapter)
+10-Nov-2020 18:23:21.381 INFO [http-nio-59368-exec-3] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Unmanaged JDBC Database, type=Resource, provider-id=Default Unmanaged JDBC Database)
+10-Nov-2020 18:23:21.381 INFO [http-nio-59368-exec-3] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=Default Unmanaged JDBC Database)
+10-Nov-2020 18:23:21.635 INFO [http-nio-59368-exec-3] org.hsqldb.persist.Logger.logInfoEvent Checkpoint start
+10-Nov-2020 18:23:21.635 INFO [http-nio-59368-exec-3] org.hsqldb.persist.Logger.logInfoEvent checkpointClose start
+10-Nov-2020 18:23:21.636 INFO [http-nio-59368-exec-3] org.hsqldb.persist.Logger.logInfoEvent checkpointClose synched
+10-Nov-2020 18:23:21.639 INFO [http-nio-59368-exec-3] org.hsqldb.persist.Logger.logInfoEvent checkpointClose script done
+10-Nov-2020 18:23:21.641 INFO [http-nio-59368-exec-3] org.hsqldb.persist.Logger.logInfoEvent checkpointClose end
+10-Nov-2020 18:23:21.641 INFO [http-nio-59368-exec-3] org.hsqldb.persist.Logger.logInfoEvent Checkpoint end - txts: 1
+10-Nov-2020 18:23:21.649 INFO [http-nio-59368-exec-3] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=Default JMS Resource Adapter)
+10-Nov-2020 18:23:21.666 INFO [http-nio-59368-exec-3] org.apache.openejb.assembler.classic.Assembler.doCreateResource Thread pool size for 'Default JMS Resource Adapter' is (30)
+10-Nov-2020 18:23:21.674 INFO [http-nio-59368-exec-3] org.apache.openejb.resource.activemq.ActiveMQ5Factory.createBroker ActiveMQ5Factory creating broker
+10-Nov-2020 18:23:21.782 INFO [http-nio-59368-exec-3] org.apache.activemq.broker.BrokerService.<clinit> Loaded the Bouncy Castle security provider at position: 11
+10-Nov-2020 18:23:21.814 INFO [http-nio-59368-exec-3] org.apache.openejb.resource.activemq.ActiveMQ5Factory.createBroker Using ActiveMQ startup timeout of 10000ms
+10-Nov-2020 18:23:21.814 INFO [ActiveMQFactory start and checkpoint] org.apache.openejb.resource.activemq.ActiveMQ5Factory$1.run Starting ActiveMQ BrokerService
+10-Nov-2020 18:23:21.819 INFO [ActiveMQFactory start and checkpoint] org.apache.activemq.broker.BrokerService.doStartPersistenceAdapter Using Persistence Adapter: MemoryPersistenceAdapter
+10-Nov-2020 18:23:21.952 INFO [ActiveMQFactory start and checkpoint] org.apache.activemq.broker.BrokerService.doStartBroker Apache ActiveMQ 5.16.0 (localhost, ID:miles.lan-59413-1605061401828-0:1) is starting
+10-Nov-2020 18:23:21.956 INFO [ActiveMQFactory start and checkpoint] org.apache.activemq.transport.TransportServerThreadSupport.doStart Listening for connections at: tcp://localhost:61616
+10-Nov-2020 18:23:21.956 INFO [ActiveMQFactory start and checkpoint] org.apache.activemq.broker.TransportConnector.start Connector tcp://localhost:61616 started
+10-Nov-2020 18:23:21.956 INFO [ActiveMQFactory start and checkpoint] org.apache.activemq.broker.BrokerService.doStartBroker Apache ActiveMQ 5.16.0 (localhost, ID:miles.lan-59413-1605061401828-0:1) started
+10-Nov-2020 18:23:21.956 INFO [ActiveMQFactory start and checkpoint] org.apache.activemq.broker.BrokerService.doStartBroker For help or more information please see: http://activemq.apache.org
+10-Nov-2020 18:23:21.957 WARNING [ActiveMQFactory start and checkpoint] org.apache.activemq.broker.BrokerService.checkUsageLimit Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: /Users/dblevins/work/apache/tomee-tck-jakartaee9/target/apache-tomee-plume-9.0.0-M3-SNAPSHOT only has 27189 mb of usable space. - resetting to maximum available disk space: 27189 mb
+10-Nov-2020 18:23:21.971 INFO [111] org.apache.openejb.resource.activemq.ActiveMQ5Factory$1.run Starting ActiveMQ checkpoint
+10-Nov-2020 18:23:21.971 INFO [http-nio-59368-exec-3] org.apache.openejb.resource.activemq.ActiveMQ5Factory.createBroker ActiveMQ broker started
+10-Nov-2020 18:23:21.980 INFO [http-nio-59368-exec-3] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=comp/DefaultJMSConnectionFactory)
+10-Nov-2020 18:23:21.983 INFO [http-nio-59368-exec-3] org.apache.openejb.assembler.classic.Assembler.doCreateResource Creating ConnectionManager for Resource(id=comp/DefaultJMSConnectionFactory)
+10-Nov-2020 18:23:21.991 INFO [http-nio-59368-exec-3] org.apache.geronimo.connector.outbound.GenericConnectionManager$InterceptorsImpl.<init> No runtime TransactionSupport
+10-Nov-2020 18:23:21.999 INFO [http-nio-59368-exec-3] org.apache.openejb.config.AutoConfig.processResourceEnvRef Auto-linking resource-env-ref 'java:comp/DefaultJMSConnectionFactory' in bean spitests_servlet_web/spitests_servlet_web/spitests_servlet_web.Comp1916651480 to Resource(id=comp/DefaultJMSConnectionFactory)
+10-Nov-2020 18:23:22.000 INFO [http-nio-59368-exec-3] org.apache.openejb.util.OptionsLog.info Using 'openejb.descriptors.output=false'
+10-Nov-2020 18:23:22.000 INFO [http-nio-59368-exec-3] org.apache.openejb.util.OptionsLog.info Using 'openejb.descriptors.output=false'
+10-Nov-2020 18:23:22.011 INFO [http-nio-59368-exec-3] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/Users/dblevins/work/tckfun/jakartaeetck9/dist/com/sun/ts/tests/jaspic/spi/servlet/spitests_servlet_web" loaded.
+10-Nov-2020 18:23:22.011 INFO [http-nio-59368-exec-3] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /Users/dblevins/work/tckfun/jakartaeetck9/dist/com/sun/ts/tests/jaspic/spi/servlet/spitests_servlet_web
+10-Nov-2020 18:23:22.113 INFO [http-nio-59368-exec-3] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/Users/dblevins/work/tckfun/jakartaeetck9/dist/com/sun/ts/tests/jaspic/spi/servlet/spitests_servlet_web)
+10-Nov-2020 18:23:22.129 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [XMLSchema.dtd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.129 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [datatypes.dtd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.129 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [xml.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.130 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-app_2_2.dtd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.130 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-jsptaglibrary_1_1.dtd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.130 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-app_2_3.dtd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.131 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-jsptaglibrary_1_2.dtd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.131 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [j2ee_web_services_1_1.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.132 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [j2ee_web_services_client_1_1.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.132 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-app_2_4.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.132 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-jsptaglibrary_2_0.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.133 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [j2ee_1_4.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.133 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [jsp_2_0.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.133 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-app_2_5.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.134 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-jsptaglibrary_2_1.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.134 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_5.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.135 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [jsp_2_1.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.135 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_web_services_1_2.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.135 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_web_services_client_1_2.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.136 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-app_3_0.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.136 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-fragment_3_0.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.136 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-common_3_0.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.137 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_6.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.137 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [jsp_2_2.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.137 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_web_services_1_3.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.138 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_web_services_client_1_3.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.138 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-app_3_1.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.138 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-fragment_3_1.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.139 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-common_3_1.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.139 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_7.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.139 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [jsp_2_3.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.140 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_web_services_1_4.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.140 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_web_services_client_1_4.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.140 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-app_4_0.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.141 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-fragment_4_0.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.141 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-common_4_0.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.141 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_8.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+10-Nov-2020 18:23:22.157 WARNING [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [5.0]. Default version will be used.
+10-Nov-2020 18:23:22.300 INFO [http-nio-59368-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Nov-2020 18:25:12.007 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10-Nov-2020 18:25:12.008 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["http-nio-59368"]
+10-Nov-2020 18:25:12.015 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["https-jsse-nio-59369"]
+10-Nov-2020 18:25:12.023 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping service [Catalina]
+10-Nov-2020 18:25:12.031 WARNING [main] com.sun.faces.config.ConfigureListener.contextDestroyed Unexpected state during contextDestroyed: no ConfigManager instance in current ServletContext but one is expected to exist.
+10-Nov-2020 18:25:12.042 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: /Users/dblevins/work/tckfun/jakartaeetck9/dist/com/sun/ts/tests/jaspic/spi/servlet/spitests_servlet_web
+10-Nov-2020 18:25:12.158 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [spitests_servlet_web] appears to have started a thread named [PoolIdleReleaseTimer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+10-Nov-2020 18:25:12.162 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["http-nio-59368"]
+10-Nov-2020 18:25:12.210 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["https-jsse-nio-59369"]
+10-Nov-2020 18:25:12.261 INFO [main] org.apache.openejb.server.SimpleServiceManager.stop Stopping server services
+10-Nov-2020 18:25:12.390 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: openejb
+10-Nov-2020 18:25:12.390 SEVERE [main] org.apache.openejb.core.singleton.SingletonInstanceManager.undeploy Unable to unregister MBean openejb.management:J2EEServer=openejb,J2EEApplication=<empty>,EJBModule=openejb,SingletonSessionBean=openejb/Deployer,name=openejb/Deployer,j2eeType=Invocations
+10-Nov-2020 18:25:12.391 SEVERE [main] org.apache.openejb.core.singleton.SingletonInstanceManager.undeploy Unable to unregister MBean openejb.management:J2EEServer=openejb,J2EEApplication=<empty>,EJBModule=openejb,SingletonSessionBean=openejb/Deployer,name=openejb/Deployer,j2eeType=Invocations
+10-Nov-2020 18:25:12.397 INFO [main] org.apache.openejb.assembler.classic.Assembler.doResourceDestruction Closing DataSource: jdbc/DB1
+10-Nov-2020 18:25:12.401 INFO [main] org.apache.openejb.assembler.classic.Assembler.doResourceDestruction Closing DataSource: jdbc/DB1Unmanaged
+10-Nov-2020 18:25:12.403 INFO [main] org.apache.openejb.assembler.classic.Assembler.doResourceDestruction Closing DataSource: jdbc/securityAPIDB
+10-Nov-2020 18:25:12.404 INFO [main] org.apache.openejb.assembler.classic.Assembler.doResourceDestruction Closing DataSource: Default Unmanaged JDBC Database
+10-Nov-2020 18:25:12.406 INFO [main] org.apache.openejb.assembler.classic.Assembler.doResourceDestruction Stopping ResourceAdapter: Default JMS Resource Adapter
+10-Nov-2020 18:25:12.406 INFO [main] org.apache.openejb.resource.activemq.ActiveMQResourceAdapter.stop Stopping ActiveMQ
+10-Nov-2020 18:25:12.415 INFO [117] org.apache.openejb.resource.activemq.ActiveMQResourceAdapter.stopImpl Stopped ActiveMQ broker
+10-Nov-2020 18:25:12.416 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-59368"]
+10-Nov-2020 18:25:12.417 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["https-jsse-nio-59369"]

@@ -1,0 +1,2 @@
+10-Nov-2020 18:23:22.342 SEVERE [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/OptionalAuthen] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+10-Nov-2020 18:23:22.343 SEVERE [http-nio-59368-exec-3] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/ModuleAuthStatusThrowExNoDispatch] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
