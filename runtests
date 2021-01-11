@@ -56,7 +56,7 @@ cd "$(dirname "$0")"
 
 
 # Clear any old test results
-git clean -fd
+git clean -fd &> /dev/null
 
 # Finally, copy the files from the scenario
 # into the root.
