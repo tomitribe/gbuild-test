@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Supports the JdkSelectionTest in gbuild main repo
+
+echo "JAVA_HOME: $JAVA_HOME"
+java -version
